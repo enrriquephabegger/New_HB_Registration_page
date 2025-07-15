@@ -5,24 +5,24 @@
  * Replace the placeholder URLs with the real Adobe Sign links.
  */
 const adobeSignLinks = {
-  "Region1_Credit":"https://example.com/adobe/region1-credit",
-  "Region1_Cash":"https://example.com/adobe/region1-cash",
-  "Region2_Credit":"https://example.com/adobe/region2-credit",
-  "Region2_Cash":"https://example.com/adobe/region2-cash",
-  "Region3_Credit":"https://example.com/adobe/region3-credit",
-  "Region3_Cash":"https://example.com/adobe/region3-cash",
-  "Region4_Credit":"https://example.com/adobe/region4-credit",
-  "Region4_Cash":"https://example.com/adobe/region4-cash",
-  "Region5_Credit":"https://example.com/adobe/region5-credit",
-  "Region5_Cash":"https://example.com/adobe/region5-cash",
-  "Region6_Credit":"https://example.com/adobe/region6-credit",
-  "Region6_Cash":"https://example.com/adobe/region6-cash",
-  "Region7_Credit":"https://example.com/adobe/region7-credit",
-  "Region7_Cash":"https://example.com/adobe/region7-cash",
-  "Region8_Credit":"https://example.com/adobe/region8-credit",
-  "Region8_Cash":"https://example.com/adobe/region8-cash",
-  "Region9_Credit":"https://example.com/adobe/region9-credit",
-  "Region9_Cash":"https://example.com/adobe/region9-cash"
+  "Region1_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region1_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region2_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region2_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region3_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region3_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region4_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region4_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region5_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region5_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region6_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region6_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region7_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region7_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region8_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region8_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*",
+  "Region9_Credit":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhCNMeY0K3y2zsRd0oLSxiyBAb1eNnmkk_PJt52arFeGrXz_GDtknc3k-wvBMsCtClY*",
+  "Region9_Cash":"https://na2.documents.adobe.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhC5xESsMPgT6Aj06r5-_95_uP4Gll3a2rM41rwrudsGMAzOi1N6BSnMqJRwONtATfM*"
 };
 
 document.getElementById('registrationForm').addEventListener('submit', function(e){
