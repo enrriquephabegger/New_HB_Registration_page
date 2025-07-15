@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habegger | Request an Account</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="banner">
+    <h1>Contractors Only – Request a Habegger Account</h1>
+  </header>
+
+  <main class="wrapper">
+    <section class="existing box">
+      <h2>Existing Customers</h2>
+      <p>If you already have a Habegger customer account but need web access, request access below.</p>
+      <a class="btn" href="https://habeggercorp.com/myaccount/forgot-password">Request Web Account</a>
+    </section>
+
+    <section class="new box">
+      <h2>New Customers</h2>
+      <form id="registrationForm">
+        <div class="field">
+          <label for="region">Select your region <span>*</span></label>
+          <select id="region" required>
+            <option value="" disabled selected>Choose...</option>
+            <option value="Region1">Region 1</option>
+            <option value="Region2">Region 2</option>
+            <option value="Region3">Region 3</option>
+            <option value="Region4">Region 4</option>
+            <option value="Region5">Region 5</option>
+            <option value="Region6">Region 6</option>
+            <option value="Region7">Region 7</option>
+            <option value="Region8">Region 8</option>
+            <option value="Region9">Region 9</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="accountType">Account type <span>*</span></label>
+          <select id="accountType" required>
+            <option value="" disabled selected>Choose...</option>
+            <option value="Credit">Credit</option>
+            <option value="Cash">Cash</option>
+          </select>
+        </div>
+
+        <button class="btn" type="submit">Continue</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>&copy; 2025 Habegger Corp</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
