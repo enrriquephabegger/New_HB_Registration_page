@@ -7,6 +7,7 @@
   --light:#f7f9fc;
   --dark:#1d1d1d;
   --radius:4px;
+  --accent:#e9eff7;
 }
 
 *,
@@ -28,13 +29,60 @@ body{
 }
 
 .wrapper{
-  max-width:960px;
+  max-width:1080px;
   margin-inline:auto;
-  padding:1rem;
+  padding:1.5rem 1rem 3rem;
   display:flex;
   flex-direction:column;
+  gap:3rem;
+}
+
+/* —— Requirements section —— */
+
+.requirements{
+  background:var(--accent);
+  padding:2rem 1.5rem;
+  border-radius:var(--radius);
+  border:1px solid #c7d4e8;
+}
+
+.requirements__title{
+  margin-top:0;
+  text-align:center;
+}
+
+.req-grid{
+  margin-top:1.5rem;
+  display:grid;
   gap:2rem;
 }
+
+.req-card{
+  background:#fff;
+  border:1px solid #dde1e7;
+  border-radius:var(--radius);
+  padding:1.25rem 1.5rem;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);
+}
+
+.req-card h3{
+  margin-top:0;
+  color:var(--primary);
+}
+
+.req-card ul{
+  padding-left:1.2rem;
+  margin:0;
+  line-height:1.55;
+}
+
+.small-note{
+  font-size:.9rem;
+  color:#555;
+  margin-top:.5rem;
+}
+
+/* —— Existing & New customer boxes —— */
 
 .box{
   background:#fff;
@@ -56,10 +104,10 @@ label{
 }
 
 select{
-  padding:0.5rem;
+  padding:0.65rem 0.5rem;
   border:1px solid #ccc;
   border-radius:var(--radius);
-  min-height:2.5rem;
+  min-height:2.6rem;
 }
 
 .btn{
@@ -86,13 +134,34 @@ footer{
   color:#666;
 }
 
+/* —— Responsiveness —— */
+
 @media (min-width:768px){
+  .req-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
   .wrapper{
-    flex-direction:row;
     gap:3rem;
   }
+
   .existing,
   .new{
     flex:1;
+  }
+
+  .wrapper{
+    flex-direction:column;
+  }
+
+  .forms-flex{
+    display:flex;
+    gap:3rem;
+  }
+}
+
+@media (min-width:992px){
+  .forms-flex{
+    flex-direction:row;
   }
 }
