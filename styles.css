@@ -124,7 +124,7 @@ select{
 }
 
 .btn:hover{
-  background:#d74e21;
+  background: red;
 }
 
 footer{
